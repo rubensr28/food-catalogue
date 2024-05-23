@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Restaurant {
 
-    private int id;
+    private Long id;
     private String name;
     private String address;
     private String city;
