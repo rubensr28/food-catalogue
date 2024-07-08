@@ -46,7 +46,7 @@ public class FoodCatalogueService {
 
     private FoodCataloguePage createFoodCataloguePage(List<FoodItem> foodItemList, Restaurant restaurant) {
         FoodCataloguePage foodCataloguePage = new FoodCataloguePage();
-        foodCataloguePage.setFoodItemList(this.fetchFoodItemList(restaurant.getId()));
+        foodCataloguePage.setFoodItemsList(this.fetchFoodItemList(restaurant.getId()));
         foodCataloguePage.setRestaurant(restaurant);
         return foodCataloguePage;
     }
